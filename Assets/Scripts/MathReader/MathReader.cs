@@ -132,7 +132,7 @@ namespace MathReader
             }
             if (str.Equals("r"))
             {
-                return new MathVariable((equation) => equation.magnitude, "r", eq);
+                return new MathVariable((equation) => equation.r, "r", eq);
             }
 
             foreach (KeyValuePair<string, float> pair in constants)

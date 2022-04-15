@@ -8,7 +8,7 @@ namespace MathReader
 
         //public Dictionary<string, float> inputs;
 
-        public float x, y, dx, dy, time, angle, magnitude;
+        public float x, y, dx, dy, time, angle, r;
 
         public MathFunction startFunction;
 
