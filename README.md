@@ -5,16 +5,16 @@ Field equations are dynamic and parsed in runtime, changes in the equations appl
 ## Example Images
 - Equation: `(y-x)/5 i + (-x-y)/5 j`
 <br /><br />
-  ![spiral](https://user-images.githubusercontent.com/13199909/163495814-6f5d8245-b32f-4f4f-b49c-caa41381ba76.jpg)
+  ![spiral](./ExampleEquations/spiral.jpg)
 - Equation: `sin(y) i + x/3 j`
 <br /><br />
-  ![eyes](https://user-images.githubusercontent.com/13199909/163496105-e1efa603-9977-43e7-8ba9-86b5cd545c86.jpg)
+  ![eyes](./ExampleEquations/eyes.jpg)
 
 - Demonstrating transition from `x/4 i + y/4 j`(outward lines) to `y/4 i + -x/4 j`(nested circles)
 <br /><br />
-![outward_lines](https://user-images.githubusercontent.com/13199909/163496378-5d69aa1c-346f-4a00-ac9a-f975e03a874d.jpg)
-![outward_to_circles](https://user-images.githubusercontent.com/13199909/163496358-7567c7a7-95b9-43bb-9af5-544004da14a5.jpg)
-![nested_circles](https://user-images.githubusercontent.com/13199909/163496391-986c0c0e-6565-4312-a57f-2f26e9dfdd38.jpg)
+![outward_lines](./ExampleEquations/outward_lines.jpg)
+![outward_to_circles](./ExampleEquations/outward_to_circles.jpg)
+![nested_circles](./ExampleEquations/nested_circles.jpg)
 
 ## Parsing
 Parsing library is written by me for this project, it is able to parse general math equations, single parameter functions like tan(x), constants like pi, variables coming from the equation fields such as x and y for position.

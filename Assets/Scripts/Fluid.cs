@@ -135,14 +135,14 @@ public class Fluid : MonoBehaviour
         horizontalMathEquation.dx = diff.x;
         horizontalMathEquation.dy = diff.y;
         horizontalMathEquation.angle = angle;
-        horizontalMathEquation.magnitude = magnitude;
+        horizontalMathEquation.r = magnitude;
 
         verticalMathEquation.x = position.x;
         verticalMathEquation.y = position.y;
         verticalMathEquation.dx = diff.x;
         verticalMathEquation.dy = diff.y;
         verticalMathEquation.angle = angle;
-        verticalMathEquation.magnitude = magnitude;
+        verticalMathEquation.r = magnitude;
 
         return new Vector2(horizontalMathEquation.GetResult(), verticalMathEquation.GetResult());
     }
