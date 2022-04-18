@@ -32,14 +32,16 @@ For better visualization, I increased particle lifetime, count and increased spa
 ![ShapeField_0](./ShapeField_0.jpg)
   As one would expect,  `cos(time) i + sin(time) j` creates circles.
   <br/>
-  ***
+***
 When `a` is in the middle of two numbers, it looks like it merges the `a=floor(a)` shape with `a=ceil(a)` shape
 
 - `a=3.5`
 ![ShapeField_3_5](./ShapeField_3_5.jpg)
 It looks like it merges the shapes with `a=3` and `a=4`, at the same time its neither distinctly 3 pointed or 4 pointed.
 <br/>
+
 ***
+
 - `a=5.5`
 ![ShapeField_5_5](./ShapeField_5_5.jpg)
 
